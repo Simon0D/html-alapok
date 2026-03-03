@@ -6,13 +6,14 @@
     <title>Document</title>
     <style>
         body{
-            background-color: rgb (199, 198, 198)
+            background-color: rgb (199, 198, 198); 
+            text-align: center;
         }
         h1{
             color: rgb(23, 46, 23)
         }
         h2{
-            color: rgb(0, 0, 0)
+            color: rgb(34, 71, 41)
         }
         h3{
             color: rgb(53, 99, 53)
@@ -30,6 +31,26 @@
             color: orange;
             background-color: black;
         }
+        div.tablazat{ 
+            display: block;
+            width: auto;
+            background-color: yellow;
+        }
+        div.kep{ 
+            display: block;
+            width: auto;
+            background-color: rgb(0, 238, 255);
+        }
+        div.video{ 
+            display: block;
+            width: auto;
+            background-color: rgb(255, 0, 255);
+        }
+        div.yt{ 
+            display: block;
+            width: auto;
+            background-color: rgb(255, 0, 0);
+        }
     </style>
 </head>
 <body>
@@ -40,22 +61,30 @@
     <h5>Html alapok</h5>
     <h6>Html alapok</h6>
     <p>szoveg blokk</p>
-    <p class="nicePar"></p>
-    <table>
-        <thead></thead>
-            <th>
-                <td>Táblázat</td>
-            </th>
-        <tbody>
-            <tr> 
-                <td>AA</td>
-                <td>BB</td>
-            </tr>
-        </tbody>
-            
-    </table>
-    <img src="html.webp">
-    <video src="vid.mp4">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/VyXSrvp4hDA?si=wwSUCAFY5OzHsUjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p class="nicePar"> </p>
+    <div class="tablazat">
+        <table align="center"
+            <thead></thead>
+                <th>
+                    <td>Táblázat</td>
+                </th>
+            <tbody>
+                <tr> 
+                    <td>AA</td>
+                    <td>BB</td>
+                </tr>
+            </tbody>
+                
+        </table>
+    </div>
+    <div class="kep">
+        <img src="html.webp">
+    </div>
+    <div class="video">
+        <video src="vid.mp4"></video>
+    </div>
+    <div class="yt">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VyXSrvp4hDA?si=wwSUCAFY5OzHsUjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 </body>
 </html>
