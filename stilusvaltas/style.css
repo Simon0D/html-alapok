@@ -10,7 +10,7 @@ body {
     background-color: #000000;
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <400>;
+    font-weight: 400;
     font-style: normal;
     color: #F4F4F4;
     line-height: 1.6;
@@ -131,7 +131,7 @@ body::after {
     background: rgba(251, 173, 24, 0.15);
     border: 1px solid rgba(251, 173, 24, 0.4);
     box-shadow: 0 15px 45px rgba(251, 173, 24, 0.15);
-    z-index: 10; 
+    z-index: 10;
 }
 
 .kartya-cim {
